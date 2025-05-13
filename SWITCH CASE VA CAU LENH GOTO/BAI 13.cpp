@@ -1,7 +1,7 @@
 #include<stdio.h>
-#include<math.h>
+
 int main(){
-	long long a,b;
+	long long a,b; //2 so nguyen a,b (a > b ; 1 <= b <= a <= 10^8 )
 	scanf ("%lld %lld" , &a , &b);
 	for(int i = a ; i >= 1 ; i--){
 		if(i % b == 0) {
@@ -9,5 +9,6 @@ int main(){
 		   break;	
 		}
 	}	
+	return 0;
 }
 
