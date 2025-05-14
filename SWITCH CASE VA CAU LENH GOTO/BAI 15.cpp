@@ -18,7 +18,7 @@ int main(){
 	// kiem tra uoc chung lon nhat
 	long long number;
 	scanf("%lld" , &number);
-	if(number % ucln(3 , 5) == 0){
+	if(number % gcd(3 , 5) == 0){
 		printf("1");
 	}
 	else{
