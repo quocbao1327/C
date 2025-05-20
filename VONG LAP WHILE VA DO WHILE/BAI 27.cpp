@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-	//chuyen so ngay sang so nam , so tuan , so ngay 
+	// BAI 27 : Chuyen so ngay sang so nam , so tuan , so ngay 
 	// DIEU KIEN : 0 <= day <= 10^6
 	int day , week = 0, year = 0;
 	scanf("%d" , &day);

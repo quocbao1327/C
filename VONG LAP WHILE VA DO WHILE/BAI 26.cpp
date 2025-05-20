@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-	// kiem tra tam giac vuong,can,deu,thuong.
+	// BAI 26 : Kiem tra tam giac vuong,can,deu,thuong.
 	// DIEU KIEN :  -10^6 <= a, b, c <= 10^6
 	int a , b , c;
 	scanf("%d%d%d" , &a , &b , &c);

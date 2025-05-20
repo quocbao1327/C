@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-	// phuong trinh bac hai
+	// BAI 28 : Phuong Trinh Bac 2
 	//DIEU KIEN : 0 <= a , b , c <= 10^9
 	int a , b , c ;//ba so nguyen a , b , c
 	long long delta = 0;
@@ -16,8 +16,7 @@ int main(){
 	}
 	else if(delta == 0){
 		x1 = (-b) / (2 * a);
-		x1 = x2;
-		printf("%.2lf %.2lf" , x1 , x2);
+		printf("%.2lf" , x1);
 	}
 	else if(delta > 0){
 		x1 = ((-b) + sqrt(delta)) / (2 * a);
