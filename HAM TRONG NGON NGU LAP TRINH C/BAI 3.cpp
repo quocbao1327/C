@@ -2,19 +2,19 @@
 #include<math.h>
 int main(){
 	// BAI 3 : QUANG TRUONG
-	// DIEU KIEN : 1 <= n , m , a <= 10^9
+	// DIEU KIEN : 1 <= length , width , stone_area <= 10^9
 	//Tinh so vien da granite de lat quang truong
-	int n , m , a;
-	scanf("%d%d%d" , &n , &m , &a);
-	long long first = n / a;
-	long long second = m / a;
-	if(n % a != 0){
+	int length , width , stone_area;
+	scanf("%d%d%d" , &length , &width , &stone_area);
+	long long first = width / stone_area;
+	long long second = length / stone_area;
+	if(length % stone_area != 0){
 		first++;
 	}
-	if(m % a != 0){
+	if(width % stone_area != 0){
 		second++;
 	}
-	printf("%lld" , first * second);
+	printf("SO VIEN DA GRANITE CAN DE LAT KIN QUANG TRUONG LA : %lld" , first * second);
 	return 0;
 }
 
